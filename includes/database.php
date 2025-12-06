@@ -32,7 +32,7 @@ class Database {
             $pdo->exec("DROP DATABASE IF EXISTS `" . DB_NAME . "`");
 
             // Create database
-            $pdo->exec("CREATE DATABASE IF NOT EXISTS `" . DB_NAME . "`");
+            $pdo->exec("CREATE DATABASE IF NOT EXISTS `" . bank_managemen . "`");
 
             // Reconnect to the newly created database
             $this->connect();
